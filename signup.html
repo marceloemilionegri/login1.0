@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>Crie uma Conta</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <h1 class="typewriter">Crie sua conta!</h1>
+        </section>
+        <div>
+            <form action="cadastro.php" method="post" autocomplete="off">
+                
+                <p class="text"><label for="isobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="isobrenome" required ></p>
+                <p class="text"><label for="iidade">idade:</label>
+                    <input type="range" name="idade" id="iidade" required value="18" oninput="ival.innerHTML = Number(iidade.value)"> <output id="ival">18</output>
+                </p>
+                
+                <p class="text">
+                    <input type="radio" name="sexo" id="isxmas" value="M" required>
+                    <label for="isxmas">Masculino</label>
+                </p>
+                <p class="text">
+                    <input type="radio" name="sexo" id="isxfem" value="F" required>
+                    <label for="isxfem">Feminino</label>
+                </p>
+                
+                <p class="text"><label for="iemail">email:</label>
+                    <input type="email" name="email" id="iemail" required ></p>
+                
+                <p class="text"><label for="iconfirme">confirme sua senha:</label>
+                    <input type="password" name="confirme" id="iconfirme" required ></p>            
+            </form>
+        </div>
+    </main>
+</body>
+</html>

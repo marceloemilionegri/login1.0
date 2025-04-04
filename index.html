@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <h1 class="typewriter">Olá, Seja bem vindo!</h1>
+                <p>Complete seu registro abaixo para ter acesso a nossa plataforma.</p>
+        </section>
+        <div>
+            <form action="cadastro.php" method="post" autocomplete="off">
+                <h1>Login</h1>
+                <p class="text"><label for="inome">Usuário ou email:</label><br>
+                    <input type="text" name="nome" id="inome" required placeholder="Usuário ou email" ></p>
+                <p  class="text"><label for="isenha">senha:</label><br>
+                    <input type="password" name="senha" id="isenha" required placeholder="Senha" ></p>
+
+                <p class="confirm"><input type="submit" value="Enviar" ></p>
+
+                <p><a href="signup.html">Não tem uma conta? Crie uma!</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
