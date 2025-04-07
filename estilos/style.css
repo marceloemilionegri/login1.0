@@ -31,7 +31,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 360px;
 }
 
 section {
@@ -96,7 +96,7 @@ section > p {
 
 section::after {
     content: '';
-    width: 350px;
+    width: 360px;
     height: 54px; 
     border-top-left-radius: 50px;
     background-image: linear-gradient(to right, var(--roxoescuro), var(--roxoazulado));
