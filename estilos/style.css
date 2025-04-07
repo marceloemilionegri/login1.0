@@ -24,8 +24,7 @@ html {
 }
 
 main {
-    height: 600px;
-    width: 70vw;
+    width: 360px;
     padding: 10px;
     margin: 10px auto;
     text-align: center;
@@ -37,6 +36,7 @@ main {
 
 section {
     height: 210px;
+    width: 360px;
     margin: 0px;
     border-top-left-radius: 60px;
     border-top-right-radius: 5px;
@@ -96,7 +96,7 @@ section > p {
 
 section::after {
     content: '';
-    
+    width: 360px;
     height: 54px; 
     border-top-left-radius: 50px;
     background-image: linear-gradient(to right, var(--roxoescuro), var(--roxoazulado));
@@ -107,7 +107,7 @@ section::after {
 
 div {
     height: 350px;
-    
+    width: 320px;
     padding: 0px 20px 20px 20px;
     margin: 0px;
     border-bottom-right-radius: 60px;
