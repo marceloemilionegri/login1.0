@@ -36,6 +36,7 @@ main {
 
 section {
     height: 210px;
+    width: 72vw;
     margin: 0px;
     border-top-left-radius: 60px;
     border-top-right-radius: 5px;
@@ -93,10 +94,9 @@ section > p {
     padding: 5px 20px 24px 20px;
 }
 
-
 section::after {
     content: '';
-    width: 360px;
+    width: 72vw;
     height: 54px; 
     border-top-left-radius: 50px;
     background-image: linear-gradient(to right, var(--roxoescuro), var(--roxoazulado));
@@ -108,6 +108,7 @@ section::after {
 
 div {
     height: 350px;
+    width: 64vw;
     padding: 0px 20px 20px 20px;
     margin: 0px;
     border-bottom-right-radius: 60px;
