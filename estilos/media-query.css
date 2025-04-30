@@ -1,16 +1,45 @@
 @charset "UTF-8";
 
-/* TABLET */
-@media screen and (min-width: 768px){
-
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    height: 55vh;
 }
 
-/* PC */
-@media screen and (min-width: 992px){
-
+section, div {
+    height: 50vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.40);
+    flex: 1 1 auto;
 }
 
-/* TEVELISÃO */
-@media screen and (min-width: 1200px){
+section.container {
+    border-top-right-radius: 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+section.container > h1 {
+    font-size: 2em;
+}
+
+section.container > p {
+    font-size: 1.3em;
+}
+
+section::after {
+    display: none;
+}
+
+div {
+    border-bottom-left-radius: 0px;
+    padding: 0px;
+}
+
+form > h1 {
+    padding: 50px;
 }
