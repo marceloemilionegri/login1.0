@@ -145,21 +145,16 @@ input {
     border: none;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    width: 220px;
+    width: 200px;
 }
 
 input:hover {
-    width: 230px;
-    transition: 1s;
+    border: 2px solid rgba(245, 245, 245, 0.336);
+    margin: 3px;
 }
 
 .confirm > input {
     width: 100px;
-}
-
-.confirm > input:hover {
-    width: 120px;
-    transition: 1s;
 }
 
 a {

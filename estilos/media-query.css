@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    --preto: #0B0A0D;
+    --cinza: #212126;
+    --cinzadesbotado: #333140;
+    --roxoazulado: #201E59;
+    --roxoescuro: #060826;
+}
+
 main {
     display: flex;
     flex-flow: row nowrap;
@@ -10,6 +18,7 @@ main {
 }
 
 section, div {
+    width: 50vw;
     height: 50vh;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.40);
     flex: 1 1 auto;
@@ -36,18 +45,32 @@ section::after {
     display: none;
 }
 
+.typewriter {
+    white-space: wrap;
+}
+
 div {
     border-bottom-left-radius: 0px;
     padding: 0px;
 }
 
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
 form > h1 {
-    padding: 50px;
+    padding: 50px 0px 25px 0px;
 }
 
 @media screen and (min-width: 1750px) {
     section.container > h1 {
         font-size: 3em;
         margin: 10px;
+    }
+
+    .typewriter {
+        white-space: nowrap;
     }
 }
